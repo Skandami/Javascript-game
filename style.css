@@ -1,0 +1,194 @@
+ html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Ensure no scrollbars */
+}
+
+/* 
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0; /* Start position */
+  /* }
+  100% {
+    background-position: 100% 0; /* End position */
+  
+
+
+body {
+    background-image: url(/img/offthecliff.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+       background-position:bottom bottom;
+       object-fit: cover;
+        position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.game {
+    width: 480px;
+    height: 400px;
+    margin: auto;
+    place-items: center;
+   
+}
+
+.logo {
+        width: 200px;
+    height: 120px;
+    background-image: url(/img/brawler.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin:0 auto;
+    top: 97px;
+    left: 70px;
+    position: relative;
+    border-radius: 10%;
+}
+#timer {color:azure;}
+
+#leon {
+width: 60px;
+height: 70px;
+background-image: url(img/Leo.png);
+background-size: 60px 70px;
+position: relative;
+top: 280px;
+}
+
+#skull {
+    width: 50px;
+height: 50px;
+background-image: url(img/BSlogo.png);
+background-size: 50px 50px;
+position: relative;
+top: 235px;
+left: 900px;
+animation: skullMov 9s infinite linear;
+}
+@keyframes skullMov{
+    /* 0% {
+        left: 700px;
+    }
+    100% {
+        left:-20px;
+    }
+    100% {
+        left:-20px;
+          top: 200px;
+    } */
+    0% {
+        left: 700px;
+         top: 240px;
+    }
+    90% {
+        left:-20px;
+         top: 240px;
+    }
+    100% {
+        left:-20px;
+          top: 400px;
+    }
+}
+
+#star {
+   width: 90px;
+height: 100px;
+background-image: url(img/mortis.png);
+background-size: 90px 100px;
+position: relative;
+top: 20px;
+left: 900px;
+animation: starMov 3s infinite linear;
+}
+@keyframes starMov{
+    /* 0% {
+        left: 700px;
+    }
+    100% {
+        left:-20px;
+    }
+    100% {
+        left:-20px;
+          top: 200px;
+    } */
+    0% {
+        left: 700px;
+         top: 30px;
+    }
+    90% {
+        left:-20px;
+         top: 30px;
+    }
+    100% {
+        left:-20px;
+          top: 400px;
+    }
+}
+
+#skin {
+    width: 70px;
+height: 100px;
+background-image: url(img/lady.png);
+background-size: 70px 100px;
+position: relative;
+top: 400px;
+left: 900px;
+animation: skinMov 15s infinite linear;
+}
+@keyframes skinMov{
+    0% {
+        left: 700px;
+         top: 120px;
+    }
+    90% {
+        left:-20px;
+         top: 120px;
+    }
+    100% {
+        left:-20px;
+          top: 400px;
+    }
+}
+
+  
+.jump {
+   animation: jump 1s linear; 
+}
+@keyframes jump{
+    0% {
+        top: 280px;
+    }
+    30% {top: 230px;
+
+    }
+    50%{top: 190px;
+
+    }
+     80% {top: 220px;
+
+    }
+    100% {
+        top:280px;
+    }
+}
+h2 {
+    color: whitesmoke;
+    font-weight: 200;
+    height: 5px;
+}
+#timer {
+    color:white;
+ font-size: x-large;
+ font-weight: 700;
+}
+#score  {
+    color:white;
+ font-size: x-large;
+ font-weight: 700;
+}
